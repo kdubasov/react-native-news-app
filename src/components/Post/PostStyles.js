@@ -2,8 +2,8 @@ import styled from "styled-components/native";
 
 export const PostView = styled.View`
   width: 100%;
-  margin-bottom: .25em;
-  padding: .5em;
+  margin-bottom: 5px;
+  padding: 5px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -15,8 +15,8 @@ export const PostView = styled.View`
 export const PostImg = styled.Image`
   width: 75px;
   aspect-ratio: 1/1;
-  margin-right: 1em;
-  border-radius: inherit;
+  margin-right: 10px;
+  border-radius: 10px;
 `;
 
 export const PostContent = styled.View`

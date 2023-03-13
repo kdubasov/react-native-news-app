@@ -18,7 +18,7 @@ const Post = ({data}) => {
                 <Link to={`/post/${publishedAt}`}>
                     <H5>{getCutWord(title)}</H5>
                 </Link>
-                <P>{getCutWord(description,50)}</P>
+                <P>{getCutWord(description,30)}</P>
                 <SMALL style={{opacity: .5}}>
                     {publishedAt}
                 </SMALL>

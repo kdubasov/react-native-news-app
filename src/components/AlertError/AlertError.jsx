@@ -5,8 +5,8 @@ import {H3, P} from "../../styles";
 const AlertError = ({error}) => {
     return (
         <AlertErrorView>
-            <H3>ERROR!</H3>
-            <P>{error}</P>
+            <H3 style={{color: "darkred"}}>ERROR!</H3>
+            <P style={{color: "darkred"}}>{error}</P>
         </AlertErrorView>
     );
 };

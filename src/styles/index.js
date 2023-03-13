@@ -4,39 +4,33 @@ import styled from "styled-components/native";
 // containers
 export const AppView = styled.View`
   width: 100%;
-  min-height: 100vh;
+  padding-top: 20px;
 `;
 export const ContainerColumn = styled.View`
   width: 100%;
-  padding: .5em;
+  padding: 5px;
   display: flex;
   flex-direction: column;
 `;
 
 // text
 export const H3 = styled.Text`
-  color: inherit;
-  font-size: 1.6em;
+  font-size: 24px;
   font-weight: 600;
 `;
 export const H4 = styled.Text`
-  color: inherit;
-  font-size: 1.4em;
+  font-size: 21px;
   font-weight: 600;
 `;
 export const H5 = styled.Text`
-  color: inherit;
-  font-size: 1.25em;
+  font-size: 18px;
   font-weight: 600;
 `;
 export const P = styled.Text`
-  color: inherit;
-  font-size: 1em;
+  font-size: 15px;
   font-weight: 400;
-  word-wrap: normal;
 `;
 export const SMALL = styled.Text`
-  color: inherit;
-  font-size: .8em;
+  font-size: 12px;
   font-weight: 400;
 `;

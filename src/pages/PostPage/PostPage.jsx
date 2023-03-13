@@ -24,7 +24,7 @@ const PostPage = () => {
     return (
         <View>
             <Link to={"/"}>
-                <P>Вернуться назад</P>
+                <H3>Вернуться назад</H3>
             </Link>
             <PostImg source={{ uri: postData.urlToImage || "https://серебро.рф/img/placeholder.png" }} />
             <H3>{postData.title}</H3>
